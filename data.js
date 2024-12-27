@@ -141,3 +141,30 @@ export const reviewers = [
     msg: "Cocoa World is a valuable partner in our supply chain. We are committed to working with Cocoa World to build a more sustainable cocoa industry.",
   },
 ];
+
+export const testimonies = [
+  {
+    id: 1,
+    title: "subscrbe for it ",
+    info: "for everything in lifr you subscribe for azeez ",
+    img: "/images/over1.png",
+    date: "10-09-2024",
+    name: "tayo",
+  },
+  {
+    id: 2,
+    title: "subscrbe for it ",
+    info: "for everything in lifr you subscribe for azeez ",
+    img: "/images/over1.png",
+    date: "11-09-2024",
+    name: "azeez",
+  },
+  {
+    id: 3,
+    title: "subscrbe for it ",
+    info: "for everything in lifr you subscribe for azeez ",
+    img: "/images/over1.png",
+    date: "12-09-2024",
+    name: "sodiq",
+  },
+];

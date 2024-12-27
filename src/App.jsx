@@ -1,11 +1,12 @@
-import Review from "./components/Review";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="p-4 md:max-w-6xl md:mx-auto">
-      <Review />
+    <div className=" ">
+      <Footer />
     </div>
   );
 };
 
 export default App;
+// md:max-w-6xl md:mx-auto p-4
