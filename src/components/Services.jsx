@@ -3,8 +3,8 @@ import { services } from "../../data";
 const Services = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="text-[28px] leading-[36px] text-choco mb-8 md:w-[36px] md:leading-[44px] whitespace-nowrap mx-auto">
+      <div className="flex flex-col justify-center items-center mb-12">
+        <h1 className="text-[28px] text-center leading-[36px] text-choco mb-8 md:w-[36px] md:leading-[44px] whitespace-nowrap mx-auto">
           Our Services
         </h1>
 

@@ -3,8 +3,8 @@ import Button from "./Button";
 const OurCocoa = () => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center">
-        <h1 className="text-[28px] leading-[36px] text-choco mb-8 md:w-[36px] md:leading-[44px] whitespace-nowrap mx-auto">
+      <div className="flex flex-col justify-center items-center mb-6">
+        <h1 className="text-[28px] text-center leading-[36px] text-choco mb-8 md:w-[36px] md:leading-[44px] whitespace-nowrap mx-auto">
           Our Cocoa
         </h1>
 
@@ -25,11 +25,7 @@ const OurCocoa = () => {
                   <h2 className="text-base text-choco font-semibold mx-auto">
                     {info.title}
                   </h2>
-                  <img
-                    src="/public/icons/link-04.png"
-                    alt=""
-                    className="md:hidden"
-                  />
+                  <img src="/icons/link-04.png" alt="" className="md:hidden" />
                 </div>
                 <p className="rows-3 text-sm text-grey px-10 text-center break-words leading-[20px]">
                   {info.desc}

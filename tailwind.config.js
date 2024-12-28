@@ -8,6 +8,9 @@ export default {
         offWhite: "#FAFAFA",
         grey: "#857C73",
       },
+      backgroundImage: {
+        ourcocoaimage: `url("/images/over2.png")`,
+      },
     },
   },
   plugins: [],

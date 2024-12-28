@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
     <>
-      <div className=" bg-choco bg-contain text-white p-4">
+      <div className=" bg-choco bg-contain text-white p-4 mt-10 md:mt-40">
         <div className="text-white md:w-[1140px] md:mx-auto py-10 leading-[20px] flex flex-col gap-6">
           {/* first div of logo */}
 
           <div>
             <img
-              src="/public/icons/LOGO.png"
+              src="/icons/LOGO.png"
               alt="logo"
               className="md:h-[64px] md:w-[76.94]"
             />

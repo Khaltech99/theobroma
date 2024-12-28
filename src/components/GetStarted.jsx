@@ -2,7 +2,7 @@ import Button from "./Button";
 const GetStarted = () => {
   return (
     <>
-      <div className="hidden md:flex flex-col justify-center items-center gap-2">
+      <div className="hidden md:flex flex-col justify-center items-center gap-2 ">
         <h1 className="text-choco text-center capitalize text-[32px] leading-[40px]">
           get started for free
         </h1>

@@ -2,7 +2,7 @@ import Button from "./Button";
 const Hero = () => {
   return (
     <>
-      <div className="md:flex justify-center items-center">
+      <div className="md:flex justify-center items-center my-12">
         <div>
           <h1 className="text-[36px] mb-6 text-choco leading-[44px] md:text-[57px] md:leading-[64px]">
             Discover the World of Premium Cocoa.

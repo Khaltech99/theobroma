@@ -1,5 +1,6 @@
 import { useState } from "react";
 import List from "./List";
+import { Link } from "react-router";
 
 const NavBar = () => {
   const [open, setIsOpen] = useState(false);
@@ -13,12 +14,14 @@ const NavBar = () => {
   };
   return (
     <>
-      <div className=" flex justify-between items-center bg-white  ">
-        <img
-          src="/icons/LOGO.png"
-          alt=""
-          className="cursor-pointer relative md:w-[77px] md:h-[64px]"
-        />
+      <div className=" flex justify-between items-center bg-white p-4 ">
+        <Link to="/">
+          <img
+            src="/icons/LOGO.png"
+            alt=""
+            className="cursor-pointer relative md:w-[77px] md:h-[64px]"
+          />
+        </Link>
         <List open={open} handleClose={handleClose} />
         <img
           src="/icons/menu-08.png"

@@ -2,8 +2,8 @@ import Button from "./Button";
 const GetInTouch = () => {
   return (
     <>
-      <div className="md:hidden flex flex-col justify-center items-center bg-[#F6F6F6] rounded-md h-[280px] p-3">
-        <img src="/public/images/IMGs.png" alt="" />
+      <div className="md:hidden flex flex-col justify-center items-center bg-[#F6F6F6] rounded-md h-[280px] p-3 mb-3">
+        <img src="/images/IMGs.png" alt="" />
         <h1 className="text-choco capitalize font-semibold text-[22px] mt-2">
           still have questions
         </h1>

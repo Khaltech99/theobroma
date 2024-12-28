@@ -7,7 +7,7 @@ const Subscriptions = () => {
       <div className="flex flex-col md:flex-row md:gap-3 md:hidden">
         {subscriptions.map((subscription) => (
           <>
-            <div className="bg-[#F0EBE7] flex justify-center items-center flex-col mb-4 p-4 break-words rounded">
+            <div className="bg-[#F0EBE7] flex justify-center items-center flex-col mb-4 p-4 break-words rounded h-[224px]">
               <h3 className="text-choco font-semibold">{subscription.title}</h3>
               <h4 className="text-sm text-grey">{subscription.sub}</h4>
               <p className="text-xs text-center text-grey break-words">

@@ -1,8 +1,8 @@
 const ContactUs = () => {
   return (
     <>
-      <div className="hidden md:flex gap-3 justify-around items-start h-[572px]">
-        <div className=" w-[540px]">
+      <div className="flex  flex-col justify-center md:flex gap-3 md:justify-around md:items-start md:h-[572px] md:flex-row ">
+        <div className=" w-full md:w-[540px]">
           <h1 className="text-choco text-[36px] ml-0 mb-2 whitespace-nowrap">
             Contact Us
           </h1>
@@ -27,15 +27,15 @@ const ContactUs = () => {
           </div>
         </div>
 
-        <form className="flex flex-col justify-end h-[452px] gap-2">
+        <form className="mt-5 flex flex-col md:justify-end md:h-[452px] gap-2 w-full md:w-[356px]">
           <div className="flex flex-col">
             <label htmlFor="name" className="font-semibold text-grey">
               Name
             </label>
             <input
-              type="email"
+              type="text"
               id="name"
-              className="outline-none bg-none border-solid border-choco border h-[52px] w-[356px] rounded-sm focus:border-2  px-2"
+              className="outline-none bg-none border-solid border-choco border h-[52px] rounded-sm focus:border-2  px-2"
               placeholder="what's your name"
             />
           </div>
@@ -46,7 +46,7 @@ const ContactUs = () => {
             <input
               type="email"
               id="email"
-              className="outline-none bg-none border-solid border-choco border h-[52px] w-[356px] rounded-sm focus:border-2  px-2"
+              className="outline-none bg-none border-solid border-choco border h-[52px]  rounded-sm focus:border-2  px-2"
               placeholder="what's your email"
             />
           </div>
@@ -57,7 +57,7 @@ const ContactUs = () => {
             <input
               type="text"
               id="subject"
-              className="outline-none bg-none border-solid border-choco border w-[356px] rounded-sm focus:border-2  px-2 h-[116px]"
+              className="outline-none bg-none border-solid border-choco border rounded-sm focus:border-2  px-2 h-[116px] "
               placeholder="talk to us"
             />
           </div>

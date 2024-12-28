@@ -6,7 +6,7 @@ const Button = ({ text, background }) => {
         className={
           background
             ? "bg-choco px-5 py-2 rounded"
-            : " border-solid border-choco px-5 py-2 rounded border-2"
+            : " border-solid border-choco px-5 py-2 rounded border"
         }
       >
         <p

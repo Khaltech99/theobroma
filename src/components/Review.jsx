@@ -28,7 +28,7 @@ const Review = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center gap-6">
+      <div className="flex flex-col items-center gap-6 mb-10">
         {/* Slider Section */}
         <div className="w-full overflow-hidden">
           <div
