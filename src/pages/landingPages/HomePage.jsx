@@ -12,7 +12,7 @@ import GetStarted from "../../components/GetStarted";
 const HomePage = () => {
   return (
     <>
-      <div className=" md:max-w-6xl md:mx-auto ">
+      <div className=" md:max-w-6xl md:mx-auto p-3">
         <Hero />
         <Who />
         <Services />

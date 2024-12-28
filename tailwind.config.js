@@ -7,6 +7,7 @@ export default {
         choco: "#69330D",
         offWhite: "#FAFAFA",
         grey: "#857C73",
+        input: "#493B2E",
       },
       backgroundImage: {
         ourcocoaimage: `url("/images/over2.png")`,
