@@ -1,5 +1,5 @@
 import { useState } from "react";
-import AuthButton from "./authComponents/AuthButton";
+import AuthButton from "./AuthButton";
 
 const AuthForm = () => {
   const [checked, setChecked] = useState(false);

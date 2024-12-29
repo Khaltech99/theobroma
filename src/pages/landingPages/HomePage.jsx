@@ -8,7 +8,6 @@ import Subscriptions from "../../components/Subscriptions";
 import Review from "../../components/Review";
 import ContactUs from "../../components/ContactUs";
 import GetStarted from "../../components/GetStarted";
-
 const HomePage = () => {
   return (
     <>
