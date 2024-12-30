@@ -3,7 +3,7 @@ import AuthButton from "./AuthButton";
 const Login = () => {
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-4 md:w-[452px] md:m-auto">
+      <div className="flex flex-col items-center justify-center gap-4 md:w-[452px] md:m-auto p-6">
         <img src="/icons/LOGO.png" alt="" className="" />
         <div className="w-full flex flex-col gap-4 justify-center">
           <h1 className="capitalize text-center text-[#493B2E] leading-[28px]">

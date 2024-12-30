@@ -33,11 +33,13 @@ const List = ({ open, handleClose }) => {
           </Link>
         </ul>
       </div>
-      <div className="hidden md:flex justify-between items-center gap-2">
-        <Link to="/">
+      <div className="hidden md:flex justify-between items-center gap-2 cursor-pointer">
+        <Link to="auth/login">
           <h1>Login</h1>
         </Link>
-        <Button text="signup" background="true" />
+        <Link to="auth/signup">
+          <Button text="signup" background="true" />
+        </Link>
       </div>
     </>
   );

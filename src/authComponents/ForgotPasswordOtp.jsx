@@ -1,7 +1,7 @@
 const ForgotPasswordOtp = () => {
   return (
     <>
-      <div className="flex flex-col justify-between items-center md:w-[408px] md:bg-offWhite md:justify-center md:shadow-sm md:p-8 md:mx-auto md:relative">
+      <div className="flex flex-col justify-between items-center md:w-[408px] md:bg-offWhite md:justify-center md:shadow-sm md:p-8 md:mx-auto md:relative md:mt-10 mt-6">
         <div className="flex flex-col justify-center items-center md:hidden">
           <div className="border rounded-md border-choco inline-block p-4 mb-6">
             <img src="/icons/mail.svg" alt="" className="  w-[20px] h-[20px]" />

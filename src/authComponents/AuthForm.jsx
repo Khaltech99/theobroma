@@ -26,13 +26,13 @@ const AuthForm = () => {
               <label htmlFor="name" className="text-input">
                 Name
               </label>
-              <div className="flex gap-2 text-sm rounded-sm h-[44px] border p-2 border-input">
-                <img src="" alt="" />
+              <div className="flex gap-2 text-sm rounded-sm h-[44px] border p-2 border-input justify-between items-center">
+                <img src="/icons/person.svg" alt="" />
                 <input
                   type="text"
                   name="name"
                   id="name"
-                  className="outline-none bg-none h-full text-input"
+                  className="outline-none bg-none h-full text-input w-full basis-full"
                   placeholder="Enter your name"
                 />
               </div>
@@ -41,13 +41,13 @@ const AuthForm = () => {
               <label htmlFor="Email" className="text-input">
                 Email
               </label>
-              <div className="flex gap-2 text-sm rounded-sm h-[44px] border p-2 border-input">
-                <img src="" alt="" />
+              <div className="flex gap-2 text-sm rounded-sm h-[44px] border p-2 border-input justify-between items-center">
+                <img src="/icons/mail.svg" alt="" />
                 <input
                   type="email"
                   name="email"
                   id="email"
-                  className="outline-none bg-none h-full text-input"
+                  className="outline-none bg-none h-full text-input w-full basis-full"
                   placeholder="Enter your email address"
                 />
               </div>
@@ -56,13 +56,13 @@ const AuthForm = () => {
               <label htmlFor="phone number" className="text-input">
                 Phone number
               </label>
-              <div className="flex gap-2 text-sm rounded-sm h-[44px] border p-2 border-input">
-                <img src="" alt="" />
+              <div className="flex gap-2 text-sm rounded-sm h-[44px] border p-2 border-input justify-between items-center">
+                <img src="/icons/phone_enabled.svg" alt="" />
                 <input
                   type="text"
                   name="phone number"
                   id="phone number"
-                  className="outline-none bg-none h-full text-input"
+                  className="outline-none bg-none h-full text-input w-full basis-full"
                   placeholder="Enter your phone number"
                 />
               </div>
@@ -71,13 +71,13 @@ const AuthForm = () => {
               <label htmlFor="phone number" className="text-input">
                 password
               </label>
-              <div className="flex gap-2 text-sm rounded-sm h-[44px] border p-2 border-input">
-                <img src="" alt="" />
+              <div className="flex gap-2 justify-between items-center text-sm rounded-sm h-[44px] border p-2 border-input">
+                <img src="/icons/visibility.svg" alt="" />
                 <input
                   type="password"
                   name="password"
                   id="password"
-                  className="outline-none bg-none h-full text-input"
+                  className="outline-none bg-none h-full text-input w-full basis-full"
                   placeholder="Enter your password"
                 />
               </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 import Button from "./Button";
 const Hero = () => {
   return (
@@ -11,8 +12,12 @@ const Hero = () => {
             Streamline Your Cocoa Acquisition Process with Trusted Suppliers.
           </p>
           <div className="flex gap-2 mb-12 md:hidden">
-            <Button background={true} text="register" />
-            <Button background={false} text="online" />
+            <Link to="auth/signup">
+              <Button background={true} text="register" />
+            </Link>
+            <Link to="auth/login">
+              <Button background={false} text="login" />
+            </Link>
           </div>
           <div className="hidden justify-start md:flex">
             <Button background={true} text="join waitlist" />
