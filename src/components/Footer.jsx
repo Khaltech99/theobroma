@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <div className=" bg-choco bg-contain text-white p-4 mt-10 md:mt-40">
-        <div className="text-white md:w-[1140px] md:mx-auto py-10 leading-[20px] flex flex-col gap-6">
+        <div className="text-white md:max-w-6xl md:mx-auto py-10  md:p-leading-[20px] flex flex-col gap-6">
           {/* first div of logo */}
 
           <div>
